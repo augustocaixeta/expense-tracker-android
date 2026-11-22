@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <string name="cd_back">Voltar</string>
+    <string name="cd_logout">Sair</string>
+    <string name="cd_budgets">Tetos do mês</string>
+    <string name="cd_delete_expense">Excluir compra</string>
+    <string name="cd_show_password">Mostrar senha</string>
+    <string name="cd_hide_password">Ocultar senha</string>
+
+    <string name="login_title">Bem-vindo de volta</string>
+    <string name="login_subtitle">Entre para acompanhar seus gastos do mês</string>
+    <string name="login_forgot_password">Esqueci minha senha</string>
+    <string name="login_action">Entrar</string>
+    <string name="login_no_account">Não tem conta?</string>
+    <string name="login_create_account">Criar conta</string>
+
+    <string name="register_title">Crie sua conta</string>
+    <string name="register_subtitle">Defina seus tetos e controle os gastos do dia a dia</string>
+    <string name="register_action">Cadastrar</string>
+    <string name="register_has_account">Já tem conta?</string>
+
+    <string name="field_name">Nome</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_password">Senha</string>
+    <string name="field_password_new">Senha (mín. 6 caracteres)</string>
+    <string name="field_password_confirm">Confirmar senha</string>
+
+    <string name="auth_error_name_required">Informe seu nome.</string>
+    <string name="auth_error_email_invalid">Informe um e-mail válido.</string>
+    <string name="auth_error_password_required">Informe sua senha.</string>
+    <string name="auth_error_password_short">A senha deve ter pelo menos 6 caracteres.</string>
+    <string name="auth_error_password_mismatch">As senhas não conferem.</string>
+    <string name="auth_error_reset_email_required">Digite seu e-mail para recuperar a senha.</string>
+    <string name="auth_error_invalid_credentials">E-mail ou senha incorretos.</string>
+    <string name="auth_error_user_disabled">Esta conta foi desativada.</string>
+    <string name="auth_error_email_in_use">Este e-mail já está cadastrado.</string>
+    <string name="auth_error_too_many_requests">Muitas tentativas. Tente novamente mais tarde.</string>
+    <string name="auth_error_network">Sem conexão com a internet.</string>
+    <string name="auth_error_unknown">Não foi possível concluir. Tente novamente.</string>
+    <string name="auth_reset_sent">Enviamos um link de recuperação para %1$s.</string>
+
+    <string name="month_pattern">MMMM \'de\' yyyy</string>
+    <string name="day_pattern">dd/MM</string>
+    <string name="currency_prefix">R$ </string>
+    <string name="percent">%1$d%%</string>
+
+    <string name="category_supermarket">Supermercado</string>
+    <string name="category_fuel">Gasolina</string>
+    <string name="category_pharmacy">Farmácia</string>
+    <string name="category_other">Outros</string>
+
+    <string name="payment_pix">Pix</string>
+    <string name="payment_cash">Dinheiro</string>
+    <string name="payment_credit">Cartão de crédito</string>
+    <string name="payment_debit">Cartão de débito</string>
+
+    <string name="amount_error_required">Informe o valor.</string>
+    <string name="amount_error_invalid">Valor inválido. Use apenas números, como 49,90.</string>
+    <string name="amount_error_negative">O valor não pode ser negativo.</string>
+    <string name="amount_error_not_positive">O valor deve ser maior que zero.</string>
+    <string name="amount_error_too_large">O valor máximo é R$ 1.000.000,00.</string>
+
+    <string name="dashboard_greeting">Olá, %1$s</string>
+    <string name="dashboard_add_expense">Nova compra</string>
+    <string name="dashboard_section_categories">Consumo por categoria</string>
+    <string name="dashboard_section_expenses">Compras do mês</string>
+    <string name="dashboard_expenses_empty">Nenhuma compra lançada neste mês.</string>
+
+    <string name="summary_spent">Total gasto no mês</string>
+    <string name="summary_limit">Teto do mês</string>
+    <string name="summary_available">Disponível</string>
+    <string name="summary_over">Acima do teto</string>
+
+    <string name="no_budgets_title">Defina seus tetos</string>
+    <string name="no_budgets_message">Estipule quanto pretende gastar por mês em cada categoria para acompanhar o consumo e o saldo disponível.</string>
+    <string name="no_budgets_action">Definir tetos</string>
+
+    <string name="category_spent_of_limit">%1$s de %2$s</string>
+    <string name="category_spent">%1$s gastos</string>
+    <string name="status_no_limit">Sem teto definido</string>
+    <string name="status_safe">Restam %1$s</string>
+    <string name="status_warning">Perto do limite, restam %1$s</string>
+    <string name="status_exceeded">Teto estourado em %1$s</string>
+
+    <string name="expense_meta">%1$s, %2$s</string>
+
+    <string name="logout_title">Sair da conta?</string>
+    <string name="logout_message">Suas compras e tetos continuam salvos neste aparelho.</string>
+    <string name="logout_confirm">Sair</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="delete_title">Excluir compra?</string>
+    <string name="delete_message">%1$s no valor de %2$s será removida do mês.</string>
+    <string name="delete_confirm">Excluir</string>
+
+    <string name="form_title">Nova compra</string>
+    <string name="form_field_amount">Valor</string>
+    <string name="amount_hint">0,00</string>
+    <string name="form_section_category">Categoria</string>
+    <string name="form_error_category">Escolha uma categoria.</string>
+    <string name="form_field_description">Descrição ou estabelecimento</string>
+    <string name="form_field_description_hint">Ex.: Posto Petrobras</string>
+    <string name="form_error_description">Informe a descrição ou o estabelecimento.</string>
+    <string name="form_section_payment">Forma de pagamento</string>
+    <string name="form_error_payment">Escolha a forma de pagamento.</string>
+    <string name="form_action_save">Lançar compra</string>
+
+    <string name="budget_title">Tetos do mês</string>
+    <string name="budget_intro">Defina quanto pretende gastar por mês em cada categoria. Deixe o campo vazio para não definir um teto.</string>
+    <string name="budget_hint">Sem teto</string>
+    <string name="budget_total">Teto total</string>
+    <string name="budget_action_save">Salvar tetos</string>
+</resources>
