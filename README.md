@@ -290,6 +290,8 @@ Ao abrir o app, se `currentUser` não for nulo, o painel é definido como tela i
 
 Contas criadas pela tela de registro do app aparecem no console do Firebase, em Authentication, com o provedor E-mail/senha.
 
+![Usuários cadastrados no Firebase Authentication](docs/firebase-auth-users.png)
+
 ## Tecnologias
 
 - Kotlin 2.2
