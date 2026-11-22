@@ -106,11 +106,13 @@ cd expense-tracker-android
 
 ### 2. Configuração do Firebase
 
-O build precisa do arquivo `app/google-services.json` de um projeto Firebase:
+O arquivo `app/google-services.json` do projeto Firebase usado no desenvolvimento já está no repositório, então o build funciona sem configuração adicional.
+
+Para usar um projeto Firebase próprio:
 
 1. Crie um projeto no [Console do Firebase](https://console.firebase.google.com/).
 2. Adicione um app Android com o nome de pacote `br.edu.iftm.expensetracker`.
-3. Baixe o `google-services.json` e coloque o arquivo em `app/`.
+3. Baixe o `google-services.json` e substitua o arquivo em `app/`.
 4. Em Authentication, na aba Método de login, ative o provedor E-mail/senha.
 
 ### 3. Executar
